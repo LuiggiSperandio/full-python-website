@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <meta name="robots" content="noindex">
     <head>
         <meta charset="utf-8">
         <meta name="biewpoirt" content="width=device-width, initial-scale=1">
@@ -28,13 +29,39 @@
             </button>
             <div class="collapse navbar-collapse" id="navbar">
                 <div class="navbar-nav">
+                    {% if user.is_authenticated %}
+                    <a class="nav-item nav-link" id="home" href="/">Home</a>
+                    <a class="nav-item nav-link" id="logout" href="/logout">Logout</a>
+                    {% else %}
                     <a class="nav-item nav-link" id="login" href="/login">Login</a>
-                    <a class="nav-item nav-link" id="login" href="/sign-up">Sign Up</a>
-                    <a class="nav-item nav-link" id="login" href="/logout">Logout</a>
-                    <a class="nav-item nav-link" id="login" href="/">Home</a>
+                    <a class="nav-item nav-link" id="signup" href="/signUp">Sign Up</a>
+                    {% endif %}
                 </div>
             </div>
         </nav>
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+            {% if category == 'danger' %}
+                <div class="alert alert-danger alter-dismissable fade show" role="alert">
+                    {{message}}
+                    <button type="button" class="close" data-dismiss="alert">
+                        <span aria-hidden="true">&times;</span> 
+                    </button>
+                </div>
+            {% else %}
+                <div class="alert alert-success alter-dismissable fade show" role="alert">
+                    {{message}}
+                    <button type="button" class="close" data-dismiss="alert">
+                        <span aria-hidden="true">&times;</span> 
+                    </button>
+                </div>
+            {% endif %}
+            {% endfor %}
+        {% endif %}
+        {% endwith %}
+
         <div class="container">
             {% block content%}
             {% endblock %}
