@@ -1,0 +1,31 @@
+
+Formado em Administração pela FIA-USP e MBA em Digital Business pela USP.
+
+Experiência nos setores de varejo, e-Commerce, consultoria, entreterimento, banco, telecomunicações.
+
+Tenho grandes conhecimentos teóricos sobre:
+Produtos e Gestão de projetos - Kanban, Kaizen, Agile, SCRUM, Design Thinking, MVP, POC
+Linguagens de programação - Python, SQL, JavaScript e R
+Serviços Cloud - Google Cloud Platform (GCP), Amazon Web Services (AWS), Render, Databricks, Airflow
+Ferramentas de visualização de dados - PowerBI, Data Studio, criação e desenvolvimento de analises e dashboards
+Infraestrutura de dados - Bancos relacionais (BigQuery, MySQL, Redis, PostgreSQL), Bancos não relacionais (MongoDB), Data Lake, Data Warehouse
+Pacote Office - Excel (Macros, VBA e ActiveX), PowerPoint, Word
+
+
+
+
+
+Reponsável por criar e manter a área de dados, definir os KPIs a serem monitorados, identificar oportunidades e orientar a tomada de decisão através de dados e definir as tecnologias e ferramentas a serem utilizadas.
+
+
+Principais atividades:
+- Gerar Insights e Analises Estratégicas para tomada de decisão em toda as áreas
+- Desenvolver processos de ETL, integrações via API, web scrapers, automações (RPA) e bancos de dados
+- Desenvolver dashboards e estudos para todas as áreas, incluindo C-Level
+- Desenvolver MVPs e POCs para validação dos projetos
+- Construir soluções com Inteligencia Artificial
+- Analisar dados do mercado e identificar tendencias e oportunidades
+- Gestão de projetos, incluindo priorizar atividades e reports C-Level
+- Validar e garantir a precisão dos dados
+- Documentar processos e sistemas
+- Garantir a conformidade com a LGPD e outras regulamentações, incluindo coleta, armazenamento, gerenciamento, qualidade e proteção dos dados
